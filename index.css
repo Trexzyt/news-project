@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: hsl(236, 13%, 42%);
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: hsl(5, 85%, 63%);
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 85px;
+
+}
+
+.section-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+}
+#web-img{
+    width: 1000px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+.web3-container {
+    display: flex;
+    width: 1000px;
+}
+
+.web3-info{
+    font-size: 35px;
+    font-weight: 800;
+    min-width: 250px;
+    gap: 5px;
+}
+
+.web3-note p {
+    margin-bottom: 40px;
+}
+
+#read-more {
+    border: 1px solid transparent;
+    background: hsl(5, 85%, 63%);
+    padding: 10px;
+}
+
+
+.news {
+    background-color: hsl(240, 100%, 5%);
+    height: 400px;
+    padding: 15px;
+}
+
+.news h3 {
+    color: hsl(35, 77%, 62%);
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.news h4 {
+    color: #fff ;
+    margin-top: 25px;
+}
+
+.news p {
+    color: hsl(236, 13%, 42%);
+    margin: 10px 0 20px 0;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.nums {
+    color: hsl(5, 85%, 63%);
+}
+
+.card-info {
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.section-info p {
+    color: hsl(236, 13%, 42%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
